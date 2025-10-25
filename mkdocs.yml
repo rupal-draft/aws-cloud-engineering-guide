@@ -1,0 +1,85 @@
+site_name: AWS Cloud Engineering Guide
+site_description: A comprehensive open-source guide to AWS cloud engineering with theoretical concepts and practical examples
+site_author: Rupal Paul
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: blue
+    accent: light blue
+
+repo_name: your-username/aws-cloud-engineering-guide
+repo_url: https://github.com/your-username/aws-cloud-engineering-guide
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Cloud Concepts: getting-started/cloud-concepts.md
+      - AWS Global Infrastructure: getting-started/aws-global-infrastructure.md
+      - Account Setup: getting-started/account-setup.md
+      - Billing & Cost Management: getting-started/billing-cost-management.md
+  - Core Services:
+      - Compute:
+          - EC2: core-services/compute/ec2.md
+          - Lambda: core-services/compute/lambda.md
+          - ECS & EKS: core-services/compute/ecs-eks.md
+      - Storage:
+          - S3: core-services/storage/s3.md
+          - EBS: core-services/storage/ebs.md
+          - Storage Comparison: core-services/storage/storage-comparison.md
+      - Networking:
+          - VPC: core-services/networking/vpc.md
+          - Route53: core-services/networking/route53.md
+          - CloudFront: core-services/networking/cloudfront.md
+      - Databases:
+          - RDS: core-services/databases/rds.md
+          - DynamoDB: core-services/databases/dynamodb.md
+          - Database Selection: core-services/databases/database-selection.md
+  - Development:
+      - Infrastructure as Code:
+          - Terraform: development/iac/terraform.md
+          - CloudFormation: development/iac/cloudformation.md
+      - DevOps:
+          - CI/CD: development/devops/cicd.md
+          - CodePipeline: development/devops/codepipeline.md
+          - Monitoring: development/devops/monitoring.md
+  - Architecture:
+      - Well-Architected Framework: architecture/well-architected-framework.md
+      - Serverless: architecture/serverless.md
+      - Microservices: architecture/microservices.md
+      - Disaster Recovery: architecture/disaster-recovery.md
+  - Security:
+      - IAM: security/iam.md
+      - Network Security: security/network-security.md
+      - Compliance: security/compliance.md
+  - Projects:
+      - Static Website: projects/static-website-hosting.md
+      - Serverless API: projects/serverless-api.md
+      - Three-Tier App: projects/three-tier-app.md
+  - Resources:
+      - Cheatsheets: resources/cheatsheets.md
+      - Video Playlist: resources/video-playlist.md
+      - Interview Prep: resources/interview-prep.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2024 Your Name - Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
