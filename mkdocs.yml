@@ -1,5 +1,5 @@
-site_name: AWS Cloud Engineering Guide
-site_description: A comprehensive open-source guide to AWS cloud engineering with theoretical concepts and practical examples
+site_name: AWS Cloud Engineering Portfolio
+site_description: My journey to master AWS through hands-on projects and open-source learning - no certifications required
 site_author: Rupal Paul
 
 theme:
@@ -11,62 +11,77 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.tabs.link
   palette:
     primary: blue
     accent: light blue
+  icon:
+    repo: fontawesome/brands/github
 
-repo_name: your-username/aws-cloud-engineering-guide
-repo_url: https://github.com/your-username/aws-cloud-engineering-guide
+repo_name: rupal-draft/aws-cloud-engineering-guide
+repo_url: https://github.com/rupal-draft/aws-cloud-engineering-guide.git
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Cloud Concepts: getting-started/cloud-concepts.md
-      - AWS Global Infrastructure: getting-started/aws-global-infrastructure.md
-      - Account Setup: getting-started/account-setup.md
-      - Billing & Cost Management: getting-started/billing-cost-management.md
+  - My Learning Journey:
+      - Progress Dashboard: learning-journey/progress-dashboard.md
+      - Cost Tracker: learning-journey/cost-tracker.md
+  - Certification Studies:
+      - Cloud Practitioner:
+          - Study Notes: certification-studies/cloud-practitioner/study-notes.md
+          - Practice Exams: certification-studies/cloud-practitioner/practice-exams.md
+          - Key Concepts: certification-studies/cloud-practitioner/key-concepts.md
+      - Developer Associate:
+          - Study Notes: certification-studies/developer-associate/study-notes.md
+          - Practice Exams: certification-studies/developer-associate/practice-exams.md
+          - Key Concepts: certification-studies/developer-associate/key-concepts.md
+      - Solutions Architect:
+          - Study Notes: certification-studies/solutions-architect/study-notes.md
+          - Practice Exams: certification-studies/solutions-architect/practice-exams.md
+          - Key Concepts: certification-studies/solutions-architect/key-concepts.md
   - Core Services:
       - Compute:
           - EC2: core-services/compute/ec2.md
           - Lambda: core-services/compute/lambda.md
           - ECS & EKS: core-services/compute/ecs-eks.md
+          - Auto Scaling: core-services/compute/auto-scaling.md
       - Storage:
           - S3: core-services/storage/s3.md
           - EBS: core-services/storage/ebs.md
+          - EFS: core-services/storage/efs.md
           - Storage Comparison: core-services/storage/storage-comparison.md
       - Networking:
           - VPC: core-services/networking/vpc.md
           - Route53: core-services/networking/route53.md
           - CloudFront: core-services/networking/cloudfront.md
+          - Load Balancers: core-services/networking/load-balancers.md
       - Databases:
           - RDS: core-services/databases/rds.md
           - DynamoDB: core-services/databases/dynamodb.md
           - Database Selection: core-services/databases/database-selection.md
-  - Development:
-      - Infrastructure as Code:
-          - Terraform: development/iac/terraform.md
-          - CloudFormation: development/iac/cloudformation.md
-      - DevOps:
-          - CI/CD: development/devops/cicd.md
-          - CodePipeline: development/devops/codepipeline.md
-          - Monitoring: development/devops/monitoring.md
-  - Architecture:
-      - Well-Architected Framework: architecture/well-architected-framework.md
-      - Serverless: architecture/serverless.md
-      - Microservices: architecture/microservices.md
-      - Disaster Recovery: architecture/disaster-recovery.md
-  - Security:
-      - IAM: security/iam.md
-      - Network Security: security/network-security.md
-      - Compliance: security/compliance.md
-  - Projects:
+  - Projects Portfolio:
       - Static Website: projects/static-website-hosting.md
       - Serverless API: projects/serverless-api.md
       - Three-Tier App: projects/three-tier-app.md
+      - CI/CD Pipeline: projects/cicd-pipeline.md
+      - Container App: projects/container-app.md
+      - Multi-Region DR: projects/multi-region-dr.md
+      - Data Pipeline: projects/data-pipeline.md
+      - Microservices: projects/microservices.md
+  - Documentation:
+      - Service Deep Dives: documentation/service-deep-dives.md
+      - Architecture Patterns: documentation/architecture-patterns.md
+      - ADRs: documentation/adrs.md
+      - Cheatsheets: documentation/cheatsheets.md
+  - Content Strategy:
+      - LinkedIn Posts: content-strategy/linkedin-posts.md
+      - YouTube Videos: content-strategy/youtube-videos.md
+      - GitHub Strategy: content-strategy/github-strategy.md
   - Resources:
-      - Cheatsheets: resources/cheatsheets.md
       - Video Playlist: resources/video-playlist.md
       - Interview Prep: resources/interview-prep.md
+      - Community: resources/community.md
 
 markdown_extensions:
   - pymdownx.highlight
@@ -78,8 +93,24 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_css:
   - stylesheets/extra.css
 
-copyright: Copyright &copy; 2024 Your Name - Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rupal-draft
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/rupal-paul
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@rupal-paul
+
+copyright: |
+  &copy; 2025 Rupal Paul - This documentation is part of my AWS learning journey and is shared openly to help others learn cloud engineering.
