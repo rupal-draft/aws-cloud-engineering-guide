@@ -26,20 +26,15 @@ nav:
   - Home: index.md
   - My Learning Journey:
       - Progress Dashboard: learning-journey/progress-dashboard.md
-      - Cost Tracker: learning-journey/cost-tracker.md
-  - Certification Studies:
+  - Study Notes:
       - Cloud Practitioner:
-          - Study Notes: certification-studies/cloud-practitioner/study-notes.md
-          - Practice Exams: certification-studies/cloud-practitioner/practice-exams.md
-          - Key Concepts: certification-studies/cloud-practitioner/key-concepts.md
+          - Study Notes: cloud-practitioner/study-notes.md
+          - AWS Starter Overview: cloud-practitioner/aws-starter-overview.md
       - Developer Associate:
-          - Study Notes: certification-studies/developer-associate/study-notes.md
-          - Practice Exams: certification-studies/developer-associate/practice-exams.md
-          - Key Concepts: certification-studies/developer-associate/key-concepts.md
+          - Study Notes: developer-associate/study-notes.md
       - Solutions Architect:
-          - Study Notes: certification-studies/solutions-architect/study-notes.md
-          - Practice Exams: certification-studies/solutions-architect/practice-exams.md
-          - Key Concepts: certification-studies/solutions-architect/key-concepts.md
+          - Study Notes: solutions-architect/study-notes.md
+
   - Core Services:
       - Compute:
           - EC2: core-services/compute/ec2.md
@@ -80,8 +75,6 @@ nav:
       - GitHub Strategy: content-strategy/github-strategy.md
   - Resources:
       - Video Playlist: resources/video-playlist.md
-      - Interview Prep: resources/interview-prep.md
-      - Community: resources/community.md
 
 markdown_extensions:
   - pymdownx.highlight
