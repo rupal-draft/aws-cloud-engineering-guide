@@ -192,7 +192,8 @@ Ref: [AWS Whitepaper – Services by Category](https://docs.aws.amazon.com/white
 - **Front End:** CloudFront + ALB
 - **Application Tier:** ECS (Fargate) or Lambda
 - **Data Tier:** Aurora / DynamoDB
-  Ref: [AWS Reference Architecture Library](https://aws.amazon.com/architecture/reference-architecture-diagrams)
+
+Ref: [AWS Reference Architecture Library](https://aws.amazon.com/architecture/reference-architecture-diagrams)
 
 ### 2. Serverless Application Architecture
 

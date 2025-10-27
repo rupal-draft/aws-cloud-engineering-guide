@@ -36,6 +36,8 @@ nav:
           - Study Notes: solutions-architect/study-notes.md
 
   - Core Services:
+      - Security & Identity:
+          - IAM: core-services/security-identity/iam.md
       - Compute:
           - EC2: core-services/compute/ec2.md
           - Lambda: core-services/compute/lambda.md
