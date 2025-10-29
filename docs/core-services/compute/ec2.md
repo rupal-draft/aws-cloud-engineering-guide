@@ -1,6 +1,6 @@
 # Amazon EC2 Overview 🚀
 
-![EC2 Overview Diagram](../../assets/images/ec2_overview_diagram.jpg)
+![EC2 Overview Diagram](../../assets/images/ec2_overview_diagram.png)
 
 ## What is EC2?
 

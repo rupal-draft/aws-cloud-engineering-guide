@@ -107,6 +107,9 @@ extra:
       link: https://linkedin.com/in/rupal-paul
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@rupal-paul
+    - icon: material/playlist-play
+      link: https://youtube.com/playlist?list=PLk76bJ6ZqFeS44kMFP0kiT0HakSLxL-rc&si=DCqihQkIOG0PJbMg
+      name: AWS Learning Playlist
 
 copyright: |
   &copy; 2025 Rupal Paul - This documentation is part of my AWS learning journey and is shared openly to help others learn cloud engineering.
