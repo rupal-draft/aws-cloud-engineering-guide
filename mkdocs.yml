@@ -40,6 +40,7 @@ nav:
           - IAM: core-services/security-identity/iam.md
       - Compute:
           - EC2: core-services/compute/ec2.md
+          - EC2 Storage: core-services/compute/ec2-storage.md
           - Lambda: core-services/compute/lambda.md
           - ECS & EKS: core-services/compute/ecs-eks.md
           - Auto Scaling: core-services/compute/auto-scaling.md
